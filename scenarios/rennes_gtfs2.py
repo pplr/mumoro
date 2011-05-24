@@ -24,7 +24,7 @@ data_bike = import_bike_service('http://data.keolis-rennes.com/xml/?version=1.0&
 #starting_date and end_date MUST be defined if municipal data is imported
 #------------------------------------------------------------------------------------------------------------------
 
-start_date = '20110425'
+start_date = '20110524'
 end_date = '20110701'
 
 star_data = import_gtfs_data('GTFS-20110325.zip', 'Metro Bus STAR')
